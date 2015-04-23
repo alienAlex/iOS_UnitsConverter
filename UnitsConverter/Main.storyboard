@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="WWj-zZ-e7h">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Distance-->
+        <scene sceneID="m1X-Uc-39u">
+            <objects>
+                <viewController title="Distance" id="uTn-UF-jh8" customClass="DistanceViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hGO-6d-meT"/>
+                        <viewControllerLayoutGuide type="bottom" id="0yd-Td-mwG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vpf-FJ-Vmh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" none="YES" keyboardKey="YES"/>
+                        </accessibility>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Distance" image="length" id="Xri-yG-ogp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6f0-q3-9cM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-124.5" y="876"/>
+        </scene>
+        <!--Weight-->
+        <scene sceneID="kux-le-Tvm">
+            <objects>
+                <viewController title="Weight" id="Cw4-uX-12j" customClass="WeightViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WZS-bn-AAa"/>
+                        <viewControllerLayoutGuide type="bottom" id="u6q-Yk-oXK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uzl-Wk-M6x">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" none="YES" keyboardKey="YES"/>
+                        </accessibility>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Weight" image="weight" id="zTL-ha-TdT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gX3-Iw-bdE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="559.5" y="524"/>
+        </scene>
+        <!--Temperature-->
+        <scene sceneID="E6j-4e-NxJ">
+            <objects>
+                <viewController title="Temperature" id="9jU-nb-GhM" customClass="TemperatureViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="j1S-i1-5He"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Ek-At-3gQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vha-q3-a4B" customClass="GraphBackgroundView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Celsius:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCt-fT-Cs6">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fahrenheit:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pdt-2h-hdM">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kelvin:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wah-IA-0lh">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3bv-HU-cRp">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                <connections>
+                                    <action selector="fahrenheitConversions:" destination="9jU-nb-GhM" eventType="editingChanged" id="hBS-iR-kJX"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2ev-76-LvV">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                <connections>
+                                    <action selector="kelvinConversions:" destination="9jU-nb-GhM" eventType="editingChanged" id="Q3W-Zr-8HT"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WNx-dp-oHb">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                <connections>
+                                    <action selector="celsiusConversions:" destination="9jU-nb-GhM" eventType="editingChanged" id="ryw-OC-NEj"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hu-Z5-m1d">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.93333333330000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Clear All">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clearAllButton:" destination="9jU-nb-GhM" eventType="touchUpInside" id="60g-oW-1fB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" none="YES" keyboardKey="YES"/>
+                        </accessibility>
+                        <constraints>
+                            <constraint firstItem="Wah-IA-0lh" firstAttribute="leading" secondItem="Pdt-2h-hdM" secondAttribute="leading" id="00O-yY-qlj"/>
+                            <constraint firstItem="3bv-HU-cRp" firstAttribute="leading" secondItem="2ev-76-LvV" secondAttribute="leading" id="0cj-OQ-E2r"/>
+                            <constraint firstItem="8hu-Z5-m1d" firstAttribute="centerX" secondItem="2ev-76-LvV" secondAttribute="centerX" id="1Z1-cs-8zu"/>
+                            <constraint firstItem="Pdt-2h-hdM" firstAttribute="top" secondItem="hCt-fT-Cs6" secondAttribute="bottom" constant="8" symbolic="YES" id="EvR-s4-t0g"/>
+                            <constraint firstItem="8hu-Z5-m1d" firstAttribute="top" secondItem="2ev-76-LvV" secondAttribute="bottom" constant="8" symbolic="YES" id="GKT-mD-IHt">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="3bv-HU-cRp" firstAttribute="trailing" secondItem="2ev-76-LvV" secondAttribute="trailing" id="SIY-7p-UJF"/>
+                            <constraint firstItem="hCt-fT-Cs6" firstAttribute="leading" secondItem="vha-q3-a4B" secondAttribute="leadingMargin" constant="19" id="U6a-uZ-NKU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8hu-Z5-m1d" secondAttribute="trailing" constant="31" id="W2v-Q3-hJI"/>
+                            <constraint firstItem="3bv-HU-cRp" firstAttribute="leading" secondItem="Pdt-2h-hdM" secondAttribute="trailing" constant="14" id="arZ-Hf-Psg"/>
+                            <constraint firstItem="3bv-HU-cRp" firstAttribute="trailing" secondItem="WNx-dp-oHb" secondAttribute="trailing" id="chr-uB-BD7"/>
+                            <constraint firstItem="2ev-76-LvV" firstAttribute="top" secondItem="Wah-IA-0lh" secondAttribute="top" id="eof-0n-Bsl"/>
+                            <constraint firstItem="hCt-fT-Cs6" firstAttribute="top" secondItem="j1S-i1-5He" secondAttribute="bottom" constant="60" id="gDa-RC-TfX"/>
+                            <constraint firstItem="hCt-fT-Cs6" firstAttribute="top" secondItem="WNx-dp-oHb" secondAttribute="top" id="i6e-xd-d6o"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WNx-dp-oHb" secondAttribute="trailing" constant="18" id="mdg-80-IAA"/>
+                            <constraint firstItem="Wah-IA-0lh" firstAttribute="top" secondItem="Pdt-2h-hdM" secondAttribute="bottom" constant="8" symbolic="YES" id="mjr-v1-90C"/>
+                            <constraint firstItem="Pdt-2h-hdM" firstAttribute="top" secondItem="3bv-HU-cRp" secondAttribute="top" id="rAW-6e-Pvl"/>
+                            <constraint firstItem="3bv-HU-cRp" firstAttribute="leading" secondItem="WNx-dp-oHb" secondAttribute="leading" id="trT-ge-58I"/>
+                            <constraint firstItem="hCt-fT-Cs6" firstAttribute="leading" secondItem="Pdt-2h-hdM" secondAttribute="leading" id="vdW-oQ-JTm"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="hCt-fT-Cs6"/>
+                                <exclude reference="Pdt-2h-hdM"/>
+                                <exclude reference="Wah-IA-0lh"/>
+                                <exclude reference="3bv-HU-cRp"/>
+                                <exclude reference="2ev-76-LvV"/>
+                                <exclude reference="WNx-dp-oHb"/>
+                                <exclude reference="8hu-Z5-m1d"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="eof-0n-Bsl"/>
+                                <exclude reference="0cj-OQ-E2r"/>
+                                <exclude reference="SIY-7p-UJF"/>
+                                <exclude reference="arZ-Hf-Psg"/>
+                                <exclude reference="chr-uB-BD7"/>
+                                <exclude reference="trT-ge-58I"/>
+                                <exclude reference="EvR-s4-t0g"/>
+                                <exclude reference="rAW-6e-Pvl"/>
+                                <exclude reference="mdg-80-IAA"/>
+                                <exclude reference="00O-yY-qlj"/>
+                                <exclude reference="mjr-v1-90C"/>
+                                <exclude reference="U6a-uZ-NKU"/>
+                                <exclude reference="gDa-RC-TfX"/>
+                                <exclude reference="i6e-xd-d6o"/>
+                                <exclude reference="vdW-oQ-JTm"/>
+                                <exclude reference="1Z1-cs-8zu"/>
+                                <exclude reference="GKT-mD-IHt"/>
+                                <exclude reference="W2v-Q3-hJI"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="hCt-fT-Cs6"/>
+                                <include reference="Pdt-2h-hdM"/>
+                                <include reference="Wah-IA-0lh"/>
+                                <include reference="3bv-HU-cRp"/>
+                                <include reference="2ev-76-LvV"/>
+                                <include reference="WNx-dp-oHb"/>
+                                <include reference="8hu-Z5-m1d"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="eof-0n-Bsl"/>
+                                <include reference="0cj-OQ-E2r"/>
+                                <include reference="SIY-7p-UJF"/>
+                                <include reference="arZ-Hf-Psg"/>
+                                <include reference="chr-uB-BD7"/>
+                                <include reference="trT-ge-58I"/>
+                                <include reference="EvR-s4-t0g"/>
+                                <include reference="rAW-6e-Pvl"/>
+                                <include reference="mdg-80-IAA"/>
+                                <include reference="00O-yY-qlj"/>
+                                <include reference="mjr-v1-90C"/>
+                                <include reference="U6a-uZ-NKU"/>
+                                <include reference="gDa-RC-TfX"/>
+                                <include reference="i6e-xd-d6o"/>
+                                <include reference="vdW-oQ-JTm"/>
+                                <include reference="1Z1-cs-8zu"/>
+                                <include reference="GKT-mD-IHt"/>
+                                <include reference="W2v-Q3-hJI"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Temperature" image="temperature" id="7Wm-Ae-yuV"/>
+                    <connections>
+                        <outlet property="celsiusTextField" destination="WNx-dp-oHb" id="mTd-oa-yGg"/>
+                        <outlet property="clearAllButton" destination="8hu-Z5-m1d" id="OXp-rt-YKk"/>
+                        <outlet property="fahrenheitTextField" destination="3bv-HU-cRp" id="hox-Bs-65i"/>
+                        <outlet property="kelvinTextField" destination="2ev-76-LvV" id="a8K-II-BVN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1MM-vE-87v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-124.5" y="202"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="jta-kl-abj">
+            <objects>
+                <tabBarController id="WWj-zZ-e7h" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="qJS-NT-KXf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9jU-nb-GhM" kind="relationship" relationship="viewControllers" id="Na3-9f-GDB"/>
+                        <segue destination="uTn-UF-jh8" kind="relationship" relationship="viewControllers" id="LFX-sA-dZD"/>
+                        <segue destination="Cw4-uX-12j" kind="relationship" relationship="viewControllers" id="h62-ub-Br7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rXK-XI-COp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1087.5" y="524"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="length" width="32" height="32"/>
+        <image name="temperature" width="32" height="32"/>
+        <image name="weight" width="32" height="32"/>
+    </resources>
+</document>

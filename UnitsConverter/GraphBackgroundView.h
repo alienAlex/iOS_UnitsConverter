@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GraphBackgroundView.h
 //  UnitsConverter
 //
 //  Created by Alejandro Martin Flores Naranjo on 4/23/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface GraphBackgroundView : UIView
 
 @end
-

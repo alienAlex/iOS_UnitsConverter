@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		7E2D85F11AE95B290098FB5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D85F01AE95B290098FB5B /* main.m */; };
 		7E2D85F41AE95B290098FB5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D85F31AE95B290098FB5B /* AppDelegate.m */; };
-		7E2D85F71AE95B290098FB5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D85F61AE95B290098FB5B /* ViewController.m */; };
-		7E2D85FA1AE95B290098FB5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2D85F81AE95B290098FB5B /* Main.storyboard */; };
 		7E2D85FC1AE95B290098FB5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E2D85FB1AE95B290098FB5B /* Images.xcassets */; };
 		7E2D85FF1AE95B290098FB5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E2D85FD1AE95B290098FB5B /* LaunchScreen.xib */; };
 		7E2D860B1AE95B290098FB5B /* UnitsConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D860A1AE95B290098FB5B /* UnitsConverterTests.m */; };
+		7E2D861D1AE95C6D0098FB5B /* DistanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D86181AE95C6D0098FB5B /* DistanceViewController.m */; };
+		7E2D861E1AE95C6D0098FB5B /* TemperatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D861A1AE95C6D0098FB5B /* TemperatureViewController.m */; };
+		7E2D861F1AE95C6D0098FB5B /* WeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D861C1AE95C6D0098FB5B /* WeightViewController.m */; };
+		7E2D86211AE95CEB0098FB5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2D86201AE95CEB0098FB5B /* Main.storyboard */; };
+		7E2D86241AE965A70098FB5B /* GraphBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D86231AE965A70098FB5B /* GraphBackgroundView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,20 @@
 		7E2D85F01AE95B290098FB5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E2D85F21AE95B290098FB5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E2D85F31AE95B290098FB5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7E2D85F51AE95B290098FB5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7E2D85F61AE95B290098FB5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7E2D85F91AE95B290098FB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E2D85FB1AE95B290098FB5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7E2D85FE1AE95B290098FB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7E2D86041AE95B290098FB5B /* UnitsConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitsConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E2D86091AE95B290098FB5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E2D860A1AE95B290098FB5B /* UnitsConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitsConverterTests.m; sourceTree = "<group>"; };
+		7E2D86171AE95C6D0098FB5B /* DistanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistanceViewController.h; sourceTree = "<group>"; };
+		7E2D86181AE95C6D0098FB5B /* DistanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistanceViewController.m; sourceTree = "<group>"; };
+		7E2D86191AE95C6D0098FB5B /* TemperatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureViewController.h; sourceTree = "<group>"; };
+		7E2D861A1AE95C6D0098FB5B /* TemperatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureViewController.m; sourceTree = "<group>"; };
+		7E2D861B1AE95C6D0098FB5B /* WeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightViewController.h; sourceTree = "<group>"; };
+		7E2D861C1AE95C6D0098FB5B /* WeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightViewController.m; sourceTree = "<group>"; };
+		7E2D86201AE95CEB0098FB5B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7E2D86221AE965A70098FB5B /* GraphBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphBackgroundView.h; sourceTree = "<group>"; };
+		7E2D86231AE965A70098FB5B /* GraphBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphBackgroundView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +90,10 @@
 		7E2D85ED1AE95B290098FB5B /* UnitsConverter */ = {
 			isa = PBXGroup;
 			children = (
-				7E2D85F21AE95B290098FB5B /* AppDelegate.h */,
-				7E2D85F31AE95B290098FB5B /* AppDelegate.m */,
-				7E2D85F51AE95B290098FB5B /* ViewController.h */,
-				7E2D85F61AE95B290098FB5B /* ViewController.m */,
-				7E2D85F81AE95B290098FB5B /* Main.storyboard */,
-				7E2D85FB1AE95B290098FB5B /* Images.xcassets */,
-				7E2D85FD1AE95B290098FB5B /* LaunchScreen.xib */,
+				7E2D86201AE95CEB0098FB5B /* Main.storyboard */,
+				7E2D86161AE95C250098FB5B /* MODEL */,
+				7E2D86151AE95C180098FB5B /* VIEW */,
+				7E2D86141AE95C110098FB5B /* CONTROLLER */,
 				7E2D85EE1AE95B290098FB5B /* Supporting Files */,
 			);
 			path = UnitsConverter;
@@ -96,6 +102,10 @@
 		7E2D85EE1AE95B290098FB5B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7E2D85FB1AE95B290098FB5B /* Images.xcassets */,
+				7E2D85F21AE95B290098FB5B /* AppDelegate.h */,
+				7E2D85F31AE95B290098FB5B /* AppDelegate.m */,
+				7E2D85FD1AE95B290098FB5B /* LaunchScreen.xib */,
 				7E2D85EF1AE95B290098FB5B /* Info.plist */,
 				7E2D85F01AE95B290098FB5B /* main.m */,
 			);
@@ -117,6 +127,35 @@
 				7E2D86091AE95B290098FB5B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E2D86141AE95C110098FB5B /* CONTROLLER */ = {
+			isa = PBXGroup;
+			children = (
+				7E2D86171AE95C6D0098FB5B /* DistanceViewController.h */,
+				7E2D86181AE95C6D0098FB5B /* DistanceViewController.m */,
+				7E2D86191AE95C6D0098FB5B /* TemperatureViewController.h */,
+				7E2D861A1AE95C6D0098FB5B /* TemperatureViewController.m */,
+				7E2D861B1AE95C6D0098FB5B /* WeightViewController.h */,
+				7E2D861C1AE95C6D0098FB5B /* WeightViewController.m */,
+			);
+			name = CONTROLLER;
+			sourceTree = "<group>";
+		};
+		7E2D86151AE95C180098FB5B /* VIEW */ = {
+			isa = PBXGroup;
+			children = (
+				7E2D86221AE965A70098FB5B /* GraphBackgroundView.h */,
+				7E2D86231AE965A70098FB5B /* GraphBackgroundView.m */,
+			);
+			name = VIEW;
+			sourceTree = "<group>";
+		};
+		7E2D86161AE95C250098FB5B /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MODEL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E2D85FA1AE95B290098FB5B /* Main.storyboard in Resources */,
+				7E2D86211AE95CEB0098FB5B /* Main.storyboard in Resources */,
 				7E2D85FF1AE95B290098FB5B /* LaunchScreen.xib in Resources */,
 				7E2D85FC1AE95B290098FB5B /* Images.xcassets in Resources */,
 			);
@@ -219,9 +258,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E2D85F71AE95B290098FB5B /* ViewController.m in Sources */,
 				7E2D85F41AE95B290098FB5B /* AppDelegate.m in Sources */,
+				7E2D86241AE965A70098FB5B /* GraphBackgroundView.m in Sources */,
 				7E2D85F11AE95B290098FB5B /* main.m in Sources */,
+				7E2D861D1AE95C6D0098FB5B /* DistanceViewController.m in Sources */,
+				7E2D861F1AE95C6D0098FB5B /* WeightViewController.m in Sources */,
+				7E2D861E1AE95C6D0098FB5B /* TemperatureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +286,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7E2D85F81AE95B290098FB5B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7E2D85F91AE95B290098FB5B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7E2D85FD1AE95B290098FB5B /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +446,7 @@
 				7E2D86101AE95B290098FB5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E2D86111AE95B290098FB5B /* Build configuration list for PBXNativeTarget "UnitsConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +455,7 @@
 				7E2D86131AE95B290098FB5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
