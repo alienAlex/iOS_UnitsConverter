@@ -17,6 +17,7 @@
 		7E2D861F1AE95C6D0098FB5B /* WeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D861C1AE95C6D0098FB5B /* WeightViewController.m */; };
 		7E2D86211AE95CEB0098FB5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2D86201AE95CEB0098FB5B /* Main.storyboard */; };
 		7E2D86241AE965A70098FB5B /* GraphBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D86231AE965A70098FB5B /* GraphBackgroundView.m */; };
+		7E842F661AEAAFA5001E5818 /* TODO.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7E842F651AEAAFA5001E5818 /* TODO.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7E2D86201AE95CEB0098FB5B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7E2D86221AE965A70098FB5B /* GraphBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphBackgroundView.h; sourceTree = "<group>"; };
 		7E2D86231AE965A70098FB5B /* GraphBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphBackgroundView.m; sourceTree = "<group>"; };
+		7E842F651AEAAFA5001E5818 /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				7E2D85FD1AE95B290098FB5B /* LaunchScreen.xib */,
 				7E2D85EF1AE95B290098FB5B /* Info.plist */,
 				7E2D85F01AE95B290098FB5B /* main.m */,
+				7E842F651AEAAFA5001E5818 /* TODO.txt */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E842F661AEAAFA5001E5818 /* TODO.txt in Resources */,
 				7E2D86211AE95CEB0098FB5B /* Main.storyboard in Resources */,
 				7E2D85FF1AE95B290098FB5B /* LaunchScreen.xib in Resources */,
 				7E2D85FC1AE95B290098FB5B /* Images.xcassets in Resources */,

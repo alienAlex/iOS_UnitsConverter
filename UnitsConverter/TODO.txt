@@ -1,0 +1,11 @@
+//TODO:
+
+-Find out if I can create my own keyboard.
+-Restrict the input length to a maximum of 15 chars including (0-9 . , - ).
+-Animate clear all button and disable if there's text in the UITextField.
+-Draw "graph paper" style on all views.
+-Shake Gesture to clear TextFields.
+-Add more units to measure.
+-Clean up code a bit, it looks like there's a lot of repetition.
+
+-Implement CoreData or other DB system.

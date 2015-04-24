@@ -69,7 +69,6 @@
     
 }
 
-
 #pragma mark - Touch Methods
 //When the user taps anywhere in a blank space in the view, the keyboard is hidden
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {

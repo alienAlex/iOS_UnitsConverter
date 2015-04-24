@@ -10,4 +10,9 @@
 
 @interface WeightViewController : UIViewController
 
+- (IBAction)kilogramsConversions:(UITextField *)sender;
+- (IBAction)poundsConversions:(UITextField *)sender;
+
+- (IBAction)clearAllButton:(UIButton *)sender;
+
 @end
