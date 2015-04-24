@@ -10,6 +10,13 @@
 
 @interface DistanceViewController : UIViewController
 
+- (IBAction)centimetersConversions:(UITextField *)sender;
+- (IBAction)metersConversions:(UITextField *)sender;
+- (IBAction)kilometersConversions:(UITextField *)sender;
+- (IBAction)inchesConversions:(UITextField *)sender;
+- (IBAction)feetConversions:(UITextField *)sender;
+- (IBAction)milesConversions:(UITextField *)sender;
 
+- (IBAction)clearAllButton:(UIButton *)sender;
 
 @end

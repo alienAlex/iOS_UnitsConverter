@@ -7,11 +7,16 @@
 //
 
 #import "GraphBackgroundView.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation GraphBackgroundView
 
 - (void)drawRect:(CGRect)rect {
     // Drawing code
+    
+    //Round the corners of the clearAllButton
+    _clearAllButton.layer.cornerRadius = 8;
+    _clearAllButton.clipsToBounds = YES;
     
 }
 

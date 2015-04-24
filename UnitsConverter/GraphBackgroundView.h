@@ -10,4 +10,6 @@
 
 @interface GraphBackgroundView : UIView
 
+@property (weak, nonatomic) IBOutlet UIButton *clearAllButton;
+
 @end
