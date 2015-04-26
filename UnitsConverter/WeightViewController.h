@@ -10,9 +10,11 @@
 
 @interface WeightViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *kilogramsTextField;
+@property (weak, nonatomic) IBOutlet UITextField *poundsTextField;
+
 - (IBAction)kilogramsConversions:(UITextField *)sender;
 - (IBAction)poundsConversions:(UITextField *)sender;
-
 - (IBAction)clearAllButton:(UIButton *)sender;
 
 @end

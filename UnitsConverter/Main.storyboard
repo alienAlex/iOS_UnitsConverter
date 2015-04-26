@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="WWj-zZ-e7h">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="WWj-zZ-e7h">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -171,36 +171,36 @@
                                 <exclude reference="idw-oI-Kmm"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="DTA-4q-RQt"/>
+                                <exclude reference="YnW-e7-B27"/>
+                                <exclude reference="0QA-oR-zXe"/>
+                                <exclude reference="ggg-Ff-kjw"/>
+                                <exclude reference="x82-r5-0Zs"/>
+                                <exclude reference="0Xz-g1-Idt"/>
+                                <exclude reference="TFb-50-wJL"/>
                                 <exclude reference="8yk-K4-zTT"/>
                                 <exclude reference="Gqg-iV-vz1"/>
                                 <exclude reference="xio-bA-Iow"/>
-                                <exclude reference="Ajm-ts-Saz"/>
-                                <exclude reference="m0l-1H-moq"/>
-                                <exclude reference="yNf-zF-C1p"/>
-                                <exclude reference="5g1-QU-tC8"/>
-                                <exclude reference="QPE-fP-hnF"/>
+                                <exclude reference="4Vf-5G-l0m"/>
+                                <exclude reference="glF-x6-hd6"/>
                                 <exclude reference="LgG-PS-47l"/>
                                 <exclude reference="XsI-TC-eFB"/>
                                 <exclude reference="dEL-nY-bMc"/>
-                                <exclude reference="DTA-4q-RQt"/>
-                                <exclude reference="YnW-e7-B27"/>
-                                <exclude reference="HF5-mS-wUZ"/>
-                                <exclude reference="VBz-qU-9JI"/>
-                                <exclude reference="bhe-UI-HCd"/>
-                                <exclude reference="tvA-J3-cuC"/>
-                                <exclude reference="0Xz-g1-Idt"/>
-                                <exclude reference="TFb-50-wJL"/>
+                                <exclude reference="Ajm-ts-Saz"/>
+                                <exclude reference="m0l-1H-moq"/>
+                                <exclude reference="yNf-zF-C1p"/>
                                 <exclude reference="49L-kk-DIv"/>
                                 <exclude reference="Pfh-9s-dw1"/>
                                 <exclude reference="lNY-b1-U9K"/>
                                 <exclude reference="JiC-lA-BPe"/>
                                 <exclude reference="cMH-4S-rvV"/>
+                                <exclude reference="HF5-mS-wUZ"/>
+                                <exclude reference="VBz-qU-9JI"/>
+                                <exclude reference="bhe-UI-HCd"/>
+                                <exclude reference="tvA-J3-cuC"/>
+                                <exclude reference="5g1-QU-tC8"/>
+                                <exclude reference="QPE-fP-hnF"/>
                                 <exclude reference="BLZ-HO-FOO"/>
-                                <exclude reference="0QA-oR-zXe"/>
-                                <exclude reference="ggg-Ff-kjw"/>
-                                <exclude reference="x82-r5-0Zs"/>
-                                <exclude reference="4Vf-5G-l0m"/>
-                                <exclude reference="glF-x6-hd6"/>
                                 <exclude reference="rim-gU-zGM"/>
                                 <exclude reference="sib-ba-2Ce"/>
                                 <exclude reference="unb-WL-LW3"/>
@@ -223,36 +223,36 @@
                                 <include reference="idw-oI-Kmm"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="DTA-4q-RQt"/>
+                                <include reference="YnW-e7-B27"/>
+                                <include reference="0QA-oR-zXe"/>
+                                <include reference="ggg-Ff-kjw"/>
+                                <include reference="x82-r5-0Zs"/>
+                                <include reference="0Xz-g1-Idt"/>
+                                <include reference="TFb-50-wJL"/>
                                 <include reference="8yk-K4-zTT"/>
                                 <include reference="Gqg-iV-vz1"/>
                                 <include reference="xio-bA-Iow"/>
-                                <include reference="Ajm-ts-Saz"/>
-                                <include reference="m0l-1H-moq"/>
-                                <include reference="yNf-zF-C1p"/>
-                                <include reference="5g1-QU-tC8"/>
-                                <include reference="QPE-fP-hnF"/>
+                                <include reference="4Vf-5G-l0m"/>
+                                <include reference="glF-x6-hd6"/>
                                 <include reference="LgG-PS-47l"/>
                                 <include reference="XsI-TC-eFB"/>
                                 <include reference="dEL-nY-bMc"/>
-                                <include reference="DTA-4q-RQt"/>
-                                <include reference="YnW-e7-B27"/>
-                                <include reference="HF5-mS-wUZ"/>
-                                <include reference="VBz-qU-9JI"/>
-                                <include reference="bhe-UI-HCd"/>
-                                <include reference="tvA-J3-cuC"/>
-                                <include reference="0Xz-g1-Idt"/>
-                                <include reference="TFb-50-wJL"/>
+                                <include reference="Ajm-ts-Saz"/>
+                                <include reference="m0l-1H-moq"/>
+                                <include reference="yNf-zF-C1p"/>
                                 <include reference="49L-kk-DIv"/>
                                 <include reference="Pfh-9s-dw1"/>
                                 <include reference="lNY-b1-U9K"/>
                                 <include reference="JiC-lA-BPe"/>
                                 <include reference="cMH-4S-rvV"/>
+                                <include reference="HF5-mS-wUZ"/>
+                                <include reference="VBz-qU-9JI"/>
+                                <include reference="bhe-UI-HCd"/>
+                                <include reference="tvA-J3-cuC"/>
+                                <include reference="5g1-QU-tC8"/>
+                                <include reference="QPE-fP-hnF"/>
                                 <include reference="BLZ-HO-FOO"/>
-                                <include reference="0QA-oR-zXe"/>
-                                <include reference="ggg-Ff-kjw"/>
-                                <include reference="x82-r5-0Zs"/>
-                                <include reference="4Vf-5G-l0m"/>
-                                <include reference="glF-x6-hd6"/>
                                 <include reference="rim-gU-zGM"/>
                                 <include reference="sib-ba-2Ce"/>
                                 <include reference="unb-WL-LW3"/>
@@ -275,7 +275,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6f0-q3-9cM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-124.5" y="876"/>
+            <point key="canvasLocation" x="-628.5" y="1422"/>
         </scene>
         <!--Weight-->
         <scene sceneID="kux-le-Tvm">
@@ -358,6 +358,7 @@
                                 <exclude reference="Ppv-mw-hoi"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="JSA-K8-A8m"/>
                                 <exclude reference="FQA-Px-GuM"/>
                                 <exclude reference="bTq-gQ-36d"/>
                                 <exclude reference="jab-0j-cDb"/>
@@ -367,7 +368,6 @@
                                 <exclude reference="Vqu-1B-UDH"/>
                                 <exclude reference="kgR-Pw-FJ6"/>
                                 <exclude reference="mIF-ik-8ij"/>
-                                <exclude reference="JSA-K8-A8m"/>
                                 <exclude reference="3h7-T1-41W"/>
                                 <exclude reference="BAt-W3-NWY"/>
                                 <exclude reference="d6b-4C-LmD"/>
@@ -382,6 +382,7 @@
                                 <include reference="Ppv-mw-hoi"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="JSA-K8-A8m"/>
                                 <include reference="FQA-Px-GuM"/>
                                 <include reference="bTq-gQ-36d"/>
                                 <include reference="jab-0j-cDb"/>
@@ -391,7 +392,6 @@
                                 <include reference="Vqu-1B-UDH"/>
                                 <include reference="kgR-Pw-FJ6"/>
                                 <include reference="mIF-ik-8ij"/>
-                                <include reference="JSA-K8-A8m"/>
                                 <include reference="3h7-T1-41W"/>
                                 <include reference="BAt-W3-NWY"/>
                                 <include reference="d6b-4C-LmD"/>
@@ -409,7 +409,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gX3-Iw-bdE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="559.5" y="524"/>
+            <point key="canvasLocation" x="16.5" y="1422"/>
         </scene>
         <!--Temperature-->
         <scene sceneID="E6j-4e-NxJ">
@@ -474,7 +474,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="clearAllButton:" destination="9jU-nb-GhM" eventType="touchUpInside" id="60g-oW-1fB"/>
+                                    <action selector="clearAllButton:" destination="9jU-nb-GhM" eventType="touchUpInside" id="FsD-Io-KJq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -580,7 +580,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1MM-vE-87v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-124.5" y="202"/>
+            <point key="canvasLocation" x="-1276.5" y="1422"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="jta-kl-abj">
@@ -596,15 +596,36 @@
                         <segue destination="9jU-nb-GhM" kind="relationship" relationship="viewControllers" id="Na3-9f-GDB"/>
                         <segue destination="uTn-UF-jh8" kind="relationship" relationship="viewControllers" id="LFX-sA-dZD"/>
                         <segue destination="Cw4-uX-12j" kind="relationship" relationship="viewControllers" id="h62-ub-Br7"/>
+                        <segue destination="BgN-1p-QNg" kind="relationship" relationship="viewControllers" id="4dA-bH-PWI"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rXK-XI-COp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1033.5" y="524"/>
+            <point key="canvasLocation" x="-628.5" y="636"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="BaV-mS-Mxf">
+            <objects>
+                <viewController title="Settings" id="BgN-1p-QNg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vqy-pB-ZcA"/>
+                        <viewControllerLayoutGuide type="bottom" id="EI6-ru-9yG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="87V-9R-n7D" customClass="GraphBackgroundView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="settings" id="tGo-Ib-j6C"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dzP-Kx-rcP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="679.5" y="1422"/>
         </scene>
     </scenes>
     <resources>
         <image name="length" width="32" height="32"/>
+        <image name="settings" width="32" height="32"/>
         <image name="temperature" width="32" height="32"/>
         <image name="weight" width="32" height="32"/>
     </resources>

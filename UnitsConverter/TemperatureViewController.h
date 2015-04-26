@@ -10,6 +10,11 @@
 
 @interface TemperatureViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *celsiusTextField;
+@property (weak, nonatomic) IBOutlet UITextField *fahrenheitTextField;
+@property (weak, nonatomic) IBOutlet UITextField *kelvinTextField;
+@property (weak, nonatomic) IBOutlet UIButton *clearAllButton;
+
 - (IBAction)celsiusConversions:(UITextField *)sender;
 - (IBAction)fahrenheitConversions:(UITextField *)sender;
 - (IBAction)kelvinConversions:(UITextField *)sender;
