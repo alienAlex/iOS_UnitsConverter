@@ -10,19 +10,26 @@
 #import "TemperatureViewController.h"
 
 @interface TemperatureViewController ()
+    @property (weak, nonatomic) IBOutlet UITextField *celsiusTextField;
+    @property (weak, nonatomic) IBOutlet UITextField *fahrenheitTextField;
+    @property (weak, nonatomic) IBOutlet UITextField *kelvinTextField;
+    @property (weak, nonatomic) IBOutlet UIButton *clearAllButton;
 
+    - (IBAction)celsiusConversions:(UITextField *)sender;
+    - (IBAction)fahrenheitConversions:(UITextField *)sender;
+    - (IBAction)kelvinConversions:(UITextField *)sender;
+    - (IBAction)clearAllButton:(UIButton *)sender;
 @end
 
 @implementation TemperatureViewController
-    @synthesize celsiusTextField, fahrenheitTextField, kelvinTextField;
     double celsiusToFahrenheit, celsiusToKelvin, fahrenheitToCelsius, fahrenheitToKelvin, kelvinToCelsius, kelvinToFahrenheit;
 
 #pragma mark - Lifecycle Methods
 - (void)viewDidLoad {
     [super viewDidLoad];
-    celsiusTextField.placeholder = @"0° Celsius";
-    fahrenheitTextField.placeholder = @"32° Fahrenheit";
-    kelvinTextField.placeholder = @"273° Kelvin";
+    self.celsiusTextField.placeholder = @"0° Celsius";
+    self.fahrenheitTextField.placeholder = @"32° Fahrenheit";
+    self.kelvinTextField.placeholder = @"273° Kelvin";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -53,23 +60,23 @@
 }
 
 -(void)allConversions {
-    double C = [celsiusTextField.text doubleValue];
+    double C = [self.celsiusTextField.text doubleValue];
     celsiusToFahrenheit = (C * 1.8) + 32;
     celsiusToKelvin = C + 273.15;
     
-    double F = [fahrenheitTextField.text doubleValue];
+    double F = [self.fahrenheitTextField.text doubleValue];
     fahrenheitToCelsius = (F - 32) / 1.8;
     fahrenheitToKelvin = ((F - 32) / 1.8) + 273.15;
     
-    double K = [kelvinTextField.text doubleValue];
+    double K = [self.kelvinTextField.text doubleValue];
     kelvinToCelsius = K - 273.15;
     kelvinToFahrenheit = ((K - 273.15) * 1.8) + 32;
 }
 
 - (IBAction)clearAllButton:(UIButton *)sender {
-    celsiusTextField.text = nil;
-    fahrenheitTextField.text = nil;
-    kelvinTextField.text = nil;
+    self.celsiusTextField.text = nil;
+    self.fahrenheitTextField.text = nil;
+    self.kelvinTextField.text = nil;
 }
 
 #pragma mark - Navigation

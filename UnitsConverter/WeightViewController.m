@@ -10,18 +10,22 @@
 #import "WeightViewController.h"
 
 @interface WeightViewController ()
+    @property (weak, nonatomic) IBOutlet UITextField *kilogramsTextField;
+    @property (weak, nonatomic) IBOutlet UITextField *poundsTextField;
 
+    - (IBAction)kilogramsConversions:(UITextField *)sender;
+    - (IBAction)poundsConversions:(UITextField *)sender;
+    - (IBAction)clearAllButton:(UIButton *)sender;
 @end
 
 @implementation WeightViewController
-    @synthesize kilogramsTextField, poundsTextField;
     double kilogramsToPounds, poundsToKilograms;
 
 #pragma mark - UIViewController Lifecycle Methods
 - (void)viewDidLoad {
     [super viewDidLoad];
-    kilogramsTextField.placeholder = @"1.0 kg";
-    poundsTextField.placeholder = @"2.21 lbs";
+    self.kilogramsTextField.placeholder = @"1.0 kg";
+    self.poundsTextField.placeholder = @"2.21 lbs";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,26 +37,26 @@
 - (IBAction)kilogramsConversions:(UITextField *)sender {
     [self allConversions];
     
-    poundsTextField.text = [NSString stringWithFormat:@"%.2f lbs", kilogramsToPounds];
+    self.poundsTextField.text = [NSString stringWithFormat:@"%.2f lbs", kilogramsToPounds];
 }
 
 - (IBAction)poundsConversions:(UITextField *)sender {
     [self allConversions];
     
-    kilogramsTextField.text = [NSString stringWithFormat:@"%.2f kg", poundsToKilograms];
+    self.kilogramsTextField.text = [NSString stringWithFormat:@"%.2f kg", poundsToKilograms];
 }
 
 -(void)allConversions {
-    double kg = [kilogramsTextField.text doubleValue];
+    double kg = [self.kilogramsTextField.text doubleValue];
     kilogramsToPounds = kg / 0.453;
     
-    double lbs = [poundsTextField.text doubleValue];
+    double lbs = [self.poundsTextField.text doubleValue];
     poundsToKilograms = lbs * 0.453;
 }
 
 - (IBAction)clearAllButton:(UIButton *)sender {
-    kilogramsTextField.text = nil;
-    poundsTextField.text = nil;
+    self.kilogramsTextField.text = nil;
+    self.poundsTextField.text = nil;
 }
 
 #pragma mark - Navigation
