@@ -2,7 +2,7 @@
 //  SpeedViewController.m
 //  UnitsConverter
 //
-//  Created by Alex on 4/29/15.
+//  Created by Alejandro Flores on 4/29/15.
 //  Copyright (c) 2015 Training. All rights reserved.
 //
 

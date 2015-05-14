@@ -2,7 +2,7 @@
 //  GraphBackgroundView.m
 //  UnitsConverter
 //
-//  Created by Alejandro Martin Flores Naranjo on 4/23/15.
+//  Created by Alejandro Flores on 4/23/15.
 //  Copyright (c) 2015 Training. All rights reserved.
 //
 

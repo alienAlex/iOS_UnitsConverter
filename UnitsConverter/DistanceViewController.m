@@ -2,7 +2,7 @@
 //  DistanceViewController.m
 //  UnitsConverter
 //
-//  Created by Alejandro Martin Flores Naranjo on 4/17/15.
+//  Created by Alejandro Flores on 4/17/15.
 //  Copyright (c) 2015 Training. All rights reserved.
 //
 //  All image resources obtained from icons8.com
